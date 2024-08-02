@@ -1,0 +1,16 @@
+algoritmo acordar;
+var
+   hora_atual : inteiro;
+
+inicio
+   // Simular a verificação da hora atual (em um sistema real, isso seria feito através de uma função do sistema operacional)
+   hora_atual := 7;
+
+   // Verificar se é hora de acordar
+   se hora_atual = 7 entao
+      // Executar as ações para acordar
+      escreva("Despertador tocando!");
+      escreva("Hora de levantar!");
+      // Adicionar mais ações aqui, como tocar um som, ligar uma luz, etc.
+   fimse;
+fim.
